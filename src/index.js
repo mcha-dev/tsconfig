@@ -18,7 +18,7 @@ const configFolderPath = path.resolve(__dirname, 'tsconfigs');
   const { framework } = await inquirer.prompt([
     {
       type: 'list',
-      message: "Pick the framework you're using:",
+      message: "Creating tsconfig.json for:",
       name: 'framework',
       choices: Object.keys(configFiles),
     },

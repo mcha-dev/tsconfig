@@ -1,8 +1,16 @@
 # TS Config
 Helper to quickly create `tsconfig.json` files
 
-```shell
+```sh
 npx @mcha/tsconfig
 ```
 
-> credit to [tsconfig.json](https://github.com/benawad/tsconfig.json)
+```sh
+? Creating tsconfig.json for: (Use arrow keys)
+❯ nextjs
+  node
+  react
+  reactnativ
+```
+
+credit to [tsconfig.json](https://github.com/benawad/tsconfig.json)
